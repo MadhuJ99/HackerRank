@@ -1,0 +1,1 @@
+SELECT DISTINCT CITY FROM STATION WHERE SUBSTR(CITY,1,1) in ('a','e','i','o','u') order by city asc;
